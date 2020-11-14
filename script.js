@@ -1,6 +1,7 @@
 const bolas = document.querySelectorAll('.ball');
 const textoCor = document.querySelector('#rgb-color');
 const textoResposta = document.querySelector('#answer');
+const botaoReiniciar = document.querySelector('#reset-game');
 const cores = [];
 
 function numeroAleatorio(num) {
@@ -36,3 +37,9 @@ function adicionaCorAleatoria() {
 }
 
 adicionaCorAleatoria();
+
+function reiniciaJogo() {
+  window.location.reload();
+}
+
+botaoReiniciar.addEventListener('click', reiniciaJogo);

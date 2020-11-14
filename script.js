@@ -46,7 +46,6 @@ adicionaCorAleatoria();
 
 function reiniciaJogo() {
   window.location.reload();
-   placar.textContent = valorPlacar;
 }
 
 botaoReiniciar.addEventListener('click', reiniciaJogo);

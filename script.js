@@ -27,6 +27,9 @@ function cliqueNaBola(event) {
     placar.textContent = valorPlacar += 3;
   } else {
     textoResposta.textContent = 'Errou! Tente novamente!';
+    if (valorPlacar > 0){
+      placar.textContent = valorPlacar -= 1;
+    }
   }
    window.sessionStorage.setItem('score', valorPlacar);
 }

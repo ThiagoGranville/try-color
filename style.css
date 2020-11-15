@@ -1,6 +1,41 @@
+body {
+  background: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+ font-size: 50px;
+ color: white;
+}
+
+#jogo-container {
+  background: white;
+  border-radius: 35px;
+  height: 250px;
+  text-align: center;
+  width: 450px;
+}
+
 .ball {
   border-radius: 50%;
   display: inline-block;
   height: 50px;
   width: 50px;
+}
+
+#reset-game {
+    background: cyan;
+    border: none;
+    border-radius:10px;
+    height: 25px;
+    margin-top: 20px;
+    width: 150px;
+}
+
+#reset-game:hover{
+cursor: pointer;
+background: green;
 }

@@ -7,8 +7,8 @@ body {
 }
 
 h1 {
- font-size: 50px;
- color: white;
+  font-size: 50px;
+  color: white;
 }
 
 #jogo-container {
@@ -19,7 +19,7 @@ h1 {
   width: 450px;
 }
 
-#rgb-color{
+#rgb-color {
   font-size: 20px;
   font-weight: bold;
 }
@@ -29,23 +29,27 @@ h1 {
   display: inline-block;
   height: 50px;
   width: 50px;
+  transition: 300ms;
 }
 
-.ball:hover{
- cursor: pointer;
- border: 1px solid cyan;
+.ball:hover {
+  cursor: pointer;
+  opacity: 70%;
 }
 
 #reset-game {
-    background: cyan;
-    border: none;
-    border-radius:10px;
-    height: 25px;
-    margin-top: 20px;
-    width: 150px;
+  background: darkcyan;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  height: 25px;
+  margin-top: 20px;
+  transition: 300ms;
+  width: 150px;
 }
 
-#reset-game:hover{
-cursor: pointer;
-background: darkcyan;
+#reset-game:hover {
+  background: cyan;
+  color: black;
+  cursor: pointer;
 }
